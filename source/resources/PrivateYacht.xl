@@ -1,0 +1,14 @@
+streaming:
+  blocks:
+    - private_yacht\all.streamingblock
+# quest:
+#   phases:
+#     - path: ats\av_traffic_surge.questphase
+#       parent: base\quest\cyberpunk2077.quest
+#     - path: ats\av_traffic_surge.questphase
+#       parent: ep1\quest\ep1_standalone.quest
+# localization:
+#   onscreens:
+#     en-us: ats\localization\en-us.json
+#     jp-jp: ats\localization\jp-jp.json
+#     ru-ru: ats\localization\ru-ru.json
