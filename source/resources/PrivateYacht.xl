@@ -1,12 +1,13 @@
 streaming:
   blocks:
     - private_yacht\all.streamingblock
-# quest:
-#   phases:
-#     - path: ats\av_traffic_surge.questphase
-#       parent: base\quest\cyberpunk2077.quest
-#     - path: ats\av_traffic_surge.questphase
-#       parent: ep1\quest\ep1_standalone.quest
+    - private_yacht\yacht_routes.streamingblock
+quest:
+  phases:
+    - path: private_yacht\quests\private_yacht_main.questphase
+      parent: base\quest\cyberpunk2077.quest
+    - path: private_yacht\quests\private_yacht_main.questphase
+      parent: ep1\quest\ep1_standalone.quest
 # localization:
 #   onscreens:
 #     en-us: ats\localization\en-us.json
