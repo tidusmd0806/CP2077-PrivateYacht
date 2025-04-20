@@ -46,32 +46,35 @@ registerForEvent('onInit', function()
     -- SetParameter()
     -- CheckNativeSettings()
 
-    -- GameUI.Observe("SessionStart", function()
-    --     if PrivateYacht.is_debug_mode then
-    --         Game.GetQuestsSystem():SetFactStr("ats_av_traffic_debug", 1)
-    --     elseif Game.GetQuestsSystem():GetFactStr("ats_av_traffic_debug") == 1 then
-    --         Game.GetQuestsSystem():SetFactStr("ats_av_traffic_debug", 0)
-    --     end
+    GameUI.Observe("SessionStart", function()
+        if PrivateYacht.is_debug_mode then
+            Game.GetQuestsSystem():SetFactStr("mod_private_yacht_debug", 1)
+        elseif Game.GetQuestsSystem():GetFactStr("mod_private_yacht_debug") == 1 then
+            Game.GetQuestsSystem():SetFactStr("mod_private_yacht_debug", 0)
+        end
 
-    --     local saved_version = Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version")
-    --     local current_version = VersionToInt(PrivateYacht.version)
-    --     if saved_version ~= current_version then
-    --         Game.GetQuestsSystem():SetFactStr("ats_av_traffic_version", current_version)
-    --         PrivateYacht.is_update_version = true
-    --     end
+        -- local saved_version = Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version")
+        -- local current_version = VersionToInt(PrivateYacht.version)
+        -- if saved_version ~= current_version then
+        --     Game.GetQuestsSystem():SetFactStr("ats_av_traffic_version", current_version)
+        --     PrivateYacht.is_update_version = true
+        -- end
 
-    --     local saved_number_of_av = Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av")
-    --     local current_number_of_av = PrivateYacht.setting_table.number_of_av
-    --     if saved_number_of_av ~= current_number_of_av then
-    --         Game.GetQuestsSystem():SetFactStr("ats_av_traffic_number_of_av", current_number_of_av)
-    --         PrivateYacht.is_update_version = true
-    --     end
+        -- local saved_number_of_av = Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av")
+        -- local current_number_of_av = PrivateYacht.setting_table.number_of_av
+        -- if saved_number_of_av ~= current_number_of_av then
+        --     Game.GetQuestsSystem():SetFactStr("ats_av_traffic_number_of_av", current_number_of_av)
+        --     PrivateYacht.is_update_version = true
+        -- end
 
-    --     if PrivateYacht.is_update_version or not IsTrafficLoop() then
-    --         PrivateYacht.is_update_version = false
-    --         StartLoop()
-    --     end
-    -- end)
+        -- if PrivateYacht.is_update_version or not IsTrafficLoop() then
+        --     PrivateYacht.is_update_version = false
+        --     StartLoop()
+        -- end
+        Cron.After(2, function()
+            Reset()
+        end)
+    end)
 
     -- if PrivateYacht.is_valid_native_settings then
 	-- 	CreateNativeSettingsBasePage()
@@ -90,17 +93,12 @@ registerForEvent('onUpdate', function(delta)
     Cron.Update(delta)
 end)
 
-function IsTrafficLoop()
-    return Game.GetQuestsSystem():GetFactStr("ats_av_traffic_loop") == 1
-end
+-- function IsTrafficLoop()
+--     return Game.GetQuestsSystem():GetFactStr("ats_av_traffic_loop") == 1
+-- end
 
-function StartLoop()
-    ManageNumberOfAV()
-    Game.GetQuestsSystem():SetFactStr("ats_av_traffic_start", 1)
-end
-
-function StopLoop()
-    Game.GetQuestsSystem():SetFactStr("ats_av_traffic_reset", 1)
+function Reset()
+    Game.GetQuestsSystem():SetFactStr("mod_private_yacht_reset", 1)
 end
 
 function ManageNumberOfAV()
