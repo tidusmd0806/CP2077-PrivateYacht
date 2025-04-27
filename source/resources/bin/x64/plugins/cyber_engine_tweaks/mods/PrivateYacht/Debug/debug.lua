@@ -48,6 +48,16 @@ end
 function Debug:SetObserver()
     if not self.is_set_observer then
         -- reserved
+        -- Override("InteractionUIBase", "OnDialogsData", function(_, value, wrapped_method)
+        --     local data = FromVariant(value)
+        --     local Hubs = data.choiceHubs
+        --     for i = 1, #Hubs[1].choices do
+        --         print(Hubs[1].choices[i].localizedName)
+        --         Hubs[1].choices[i].localizedName = "test"
+        --     end
+        --     data.choiceHubs = Hubs
+        --     wrapped_method(ToVariant(data))
+        -- end)
     end
     self.is_set_observer = true
 
