@@ -31,6 +31,7 @@ function Debug:ImGuiMain()
     ImGui.Text("Version : " .. PrivateYacht.version)
     -- ImGui.Text("Saved Version : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version"))
     -- ImGui.Text("Saved Number of AV : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av"))
+    ImGui.Text("Current Route : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_route"))
 
     self:SetObserver()
     -- self:ImGuiInputSplineNum()
