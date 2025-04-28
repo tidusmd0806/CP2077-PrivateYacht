@@ -101,6 +101,24 @@ function Reset()
     Game.GetQuestsSystem():SetFactStr("mod_private_yacht_reset", 1)
 end
 
+function ToggleActivation()
+    if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable") == 1 then
+        Game.GetQuestsSystem():SetFactStr("mod_private_yacht_enable", 0)
+    else
+        Game.GetQuestsSystem():SetFactStr("mod_private_yacht_enable", 1)
+    end
+    Reset()
+end
+
+function ToggleAuto()
+    if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto") == 1 then
+        Game.GetQuestsSystem():SetFactStr("mod_private_yacht_auto", 0)
+    else
+        Game.GetQuestsSystem():SetFactStr("mod_private_yacht_auto", 1)
+    end
+    Reset()
+end
+
 function ManageNumberOfAV()
     local selected_numbers = {}
     local count = PrivateYacht.max_number_of_av - PrivateYacht.setting_table.number_of_av

@@ -31,7 +31,9 @@ function Debug:ImGuiMain()
     ImGui.Text("Version : " .. PrivateYacht.version)
     -- ImGui.Text("Saved Version : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version"))
     -- ImGui.Text("Saved Number of AV : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av"))
+    ImGui.Text("Enable Mod : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable"))
     ImGui.Text("Current Route : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_route"))
+    ImGui.Text("Current Mode : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto"))
 
     self:SetObserver()
     -- self:ImGuiInputSplineNum()
@@ -254,6 +256,22 @@ function Debug:ImGuiExcuteFunction()
     ImGui.Separator()
     ImGui.Separator()
     ImGui.Separator()
+    if ImGui.Button("ToggleActivation") then
+        ToggleActivation()
+        if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable") == 1 then
+            print("Enable")
+        else
+            print("Disable")
+        end
+    end
+    if ImGui.Button("ToggleAuto") then
+        ToggleAuto()
+        if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto") == 1 then
+            print("Auto")
+        else
+            print("Manual")
+        end
+    end
     if ImGui.Button("Reset") then
         Reset()
         print("Reset")
