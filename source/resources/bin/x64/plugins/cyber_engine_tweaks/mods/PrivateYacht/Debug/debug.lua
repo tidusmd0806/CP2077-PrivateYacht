@@ -17,7 +17,7 @@ function Debug:New()
     obj.spline_generator = nil
     obj.spline_num = 0
     obj.spline_route = 1
-    obj.spline_speed = 50
+    obj.spline_speed = 10
     obj.spline_list_num = 0
     obj.spline_dist_offset = 0
     obj.route_decorded_json = nil
@@ -31,17 +31,14 @@ function Debug:ImGuiMain()
     ImGui.Text("Version : " .. PrivateYacht.version)
     -- ImGui.Text("Saved Version : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version"))
     -- ImGui.Text("Saved Number of AV : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av"))
-    ImGui.Text("Enable Mod : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable"))
-    ImGui.Text("Current Route : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_route"))
-    ImGui.Text("Current Mode : " .. Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto"))
 
     self:SetObserver()
-    -- self:ImGuiInputSplineNum()
-    -- self:ImGuiInputSplineRoute()
-    -- self:ImGuiInputSplineSpeed()
-    -- self:ImGuiSplineRelativePosition()
-    -- self:ImGuiPlayerPosition()
-    -- self:ImGuiFactValue()
+    self:ImGuiInputSplineNum()
+    self:ImGuiInputSplineRoute()
+    self:ImGuiInputSplineSpeed()
+    self:ImGuiSplineRelativePosition()
+    self:ImGuiPlayerPosition()
+    self:ImGuiFactValue()
     -- self:ImGuiLockedNumber()
     self:ImGuiExcuteFunction()
 
@@ -61,6 +58,13 @@ function Debug:SetObserver()
         --     data.choiceHubs = Hubs
         --     wrapped_method(ToVariant(data))
         -- end)
+        -- Observe("DefaultTransition", "GetDistanceToGround;StateGameScriptInterface",
+        -- ---@param scriptInterface StateGameScriptInterface
+        -- function(scriptInterface)
+        --     -- method has just been called
+        --     print("GetDistanceToGround : ")
+        -- end)
+
     end
     self.is_set_observer = true
 
@@ -109,14 +113,12 @@ function Debug:ImGuiFactValue()
     if fact_db == nil then
         return
     end
-    local ats_av_traffic_debug = fact_db:GetFactStr("ats_av_traffic_debug")
-    local ats_av_traffic_start = fact_db:GetFactStr("ats_av_traffic_start")
-    local ats_av_traffic_loop = fact_db:GetFactStr("ats_av_traffic_loop")
-    local ats_av_traffic_reset = fact_db:GetFactStr("ats_av_traffic_reset")
-    ImGui.Text("ats_av_traffic_debug : " .. ats_av_traffic_debug)
-    ImGui.Text("ats_av_traffic_start : " .. ats_av_traffic_start)
-    ImGui.Text("ats_av_traffic_loop : " .. ats_av_traffic_loop)
-    ImGui.Text("ats_av_traffic_reset : " .. ats_av_traffic_reset)
+    local mod_private_yacht_enable = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable")
+    local mod_private_yacht_route = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_route")
+    local mod_private_yacht_auto = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto")
+    ImGui.Text("mod_private_yacht_enable : " .. mod_private_yacht_enable)
+    ImGui.Text("mod_private_yacht_route : " .. mod_private_yacht_route)
+    ImGui.Text("mod_private_yacht_auto : " .. mod_private_yacht_auto)
 
 end
 
@@ -146,113 +148,144 @@ function Debug:ImGuiLockedNumber()
 end
 
 function Debug:ImGuiExcuteFunction()
-    -- if ImGui.Button("Spline Start/Stop") then
-    --     if self.is_recording then
-    --         if self.spline_count < 8 then
-    --             print("Invalid Spline Count : " .. self.spline_count)
-    --             return
-    --         end
-    --         for i = #self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points, self.spline_count + 2, -1 do
-    --             table.remove(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points, i)
-    --         end
-    --         local distance = 0
-    --         for index, point in ipairs(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points) do
-    --             if index == 1 then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --             elseif index == 2 then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --                 point.position.Z = 0
-    --             elseif index == 3 then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --                 point.position.Z = 0
-    --             elseif index == 4 then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --                 point.position.X = self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[3].position.X
-    --                 point.position.Y = self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[3].position.Y
-    --             elseif index == self.spline_count + 1 then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --                 point.position.X = self.spline_destination_pos.x - self.spline_base_pos.x
-    --                 point.position.Y = self.spline_destination_pos.y - self.spline_base_pos.y
-    --                 point.position.Z = self.spline_destination_pos.z - self.spline_base_pos.z
-    --             elseif index == self.spline_count then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --                 point.position.Z = self.spline_destination_pos.z - self.spline_base_pos.z
-    --             elseif index == self.spline_count - 1 then
-    --                 point.automaticTangents = 0
-    --                 point.continuousTangents = 0
-    --                 point.position.X = self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.X
-    --                 point.position.Y = self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Y
-    --             elseif index > self.spline_count + 1 then
-    --                 break
-    --             end
-    --             if index > 1 then
-    --                 local x = point.position.X - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.X
-    --                 local y = point.position.Y - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Y
-    --                 local z = point.position.Z - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Z
-    --                 distance = distance + math.sqrt(x * x + y * y + z * z)
-    --             end
-    --         end
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[3]["end"] = distance -20
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[3]["start"] = distance - 80
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[4]["end"] = distance + 50
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[4]["start"] = distance
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[3].pos = distance - 20
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[4].pos = distance - 19
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[4].targetOrientation.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
+    if ImGui.Button("Spline Start/Stop") then
+        if self.is_recording then
+            if self.spline_count < 3 then
+                print("Invalid Spline Count : " .. self.spline_count)
+                return
+            end
+            for i = #self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points, self.spline_count + 2, -1 do
+                table.remove(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points, i)
+            end
+            for i = #self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections, self.spline_count + 1, -1 do
+                table.remove(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections, i)
+            end
+            local distance = 0
+            for index, point in ipairs(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points) do
+                if index == 1 then
+                    point.automaticTangents = 0
+                    point.continuousTangents = 0
+                elseif index == 2 then
+                    point.automaticTangents = 0
+                    point.continuousTangents = 0
+                elseif index == self.spline_count + 1 then
+                    point.automaticTangents = 0
+                    point.continuousTangents = 0
+                    point.position.X = self.spline_destination_pos.x - self.spline_base_pos.x
+                    point.position.Y = self.spline_destination_pos.y - self.spline_base_pos.y
+                    point.position.Z = self.spline_destination_pos.z - self.spline_base_pos.z
+                elseif index > self.spline_count + 1 then
+                    break
+                end
+                if index > 1 then
+                    local x = point.position.X - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.X
+                    local y = point.position.Y - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Y
+                    local z = point.position.Z - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Z
+                    distance = distance + math.sqrt(x * x + y * y + z * z)
+                end
+            end
+            local orientation_num = #self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[3]["end"] = distance - 1
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[3]["start"] = distance - 50
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[4]["end"] = distance + 100
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[4]["start"] = distance + 20
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[orientation_num].pos = distance
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[orientation_num].targetOrientation.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
 
-    --         local encoded_json = json.encode(self.route_decorded_json)
-    --         local f_handle = io.open("av_traffic_route.streamingsector.json","w")
-    --         if f_handle == nil then
-    --             return
-    --         end
-    --         f_handle:write(encoded_json)
-    --         f_handle:close()
-    --         self.is_recording = false
-    --     else
-    --         self.spline_count = 1
-    --         self.spline_list_num = self.spline_num * 2 + self.spline_route - 2
-    --         if self.spline_route == 1 then
-    --             self.spline_dist_offset = 1
-    --         elseif self.spline_route == 2 then
-    --             self.spline_dist_offset = -1
-    --         end
-    --         local f_handle = io.open("av_traffic_route.streamingsector.json", "r")
-    --         if f_handle == nil then
-    --             return
-    --         end
-    --         self.route_decorded_json = json.decode(f_handle:read("*a"))
-    --         f_handle:close()
+            local encoded_json = json.encode(self.route_decorded_json)
+            local f_handle = io.open("yacht_route.streamingsector.json","w")
+            if f_handle == nil then
+                return
+            end
+            f_handle:write(encoded_json)
+            f_handle:close()
+            self.is_recording = false
+        else
+            self.spline_count = 1
+            self.spline_list_num = self.spline_num * 2 + self.spline_route - 2
+            if self.spline_route == 1 then
+                self.spline_dist_offset = 1
+            elseif self.spline_route == 2 then
+                self.spline_dist_offset = -1
+            end
+            local f_handle = io.open("yacht_route.streamingsector.json", "r")
+            if f_handle == nil then
+                return
+            end
+            self.route_decorded_json = json.decode(f_handle:read("*a"))
+            f_handle:close()
 
-    --         self.spline_base_pos.x = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num].Position.X
-    --         self.spline_base_pos.y = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num].Position.Y
-    --         self.spline_base_pos.z = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num].Position.Z
-    --         self.spline_destination_pos.x = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num + self.spline_dist_offset].Position.X
-    --         self.spline_destination_pos.y = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num + self.spline_dist_offset].Position.Y
-    --         self.spline_destination_pos.z = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num + self.spline_dist_offset].Position.Z
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[2].targetSpeed_M_P_S = self.spline_speed
-    --         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[1].targetOrientation.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
+            self.spline_base_pos.x = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num].Position.X
+            self.spline_base_pos.y = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num].Position.Y
+            self.spline_base_pos.z = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num].Position.Z
+            self.spline_destination_pos.x = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num + self.spline_dist_offset].Position.X
+            self.spline_destination_pos.y = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num + self.spline_dist_offset].Position.Y
+            self.spline_destination_pos.z = self.route_decorded_json.Data.RootChunk.nodeData.Data[self.spline_list_num + self.spline_dist_offset].Position.Z
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[2].targetSpeed_M_P_S = self.spline_speed
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[1].targetOrientation.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
 
-    --         self.is_recording = true
-    --     end
-    -- end
-    -- if self.is_recording then
-    --     ImGui.Text("Recording : On")
-    --     ImGui.Text("Current Spline Count : " .. self.spline_count)
-    -- else
-    --     ImGui.Text("Recording : Off")
-    -- end
-    -- if ImGui.Button("Spline Point") then
-    --     self.spline_count = self.spline_count + 1
-    --     self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.X = self.spline_pos.x
-    --     self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Y = self.spline_pos.y
-    --     self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Z = self.spline_pos.z
-    -- end
+            self.is_recording = true
+        end
+    end
+    if self.is_recording then
+        ImGui.Text("Recording : On")
+        ImGui.Text("Current Spline Count : " .. self.spline_count)
+    else
+        ImGui.Text("Recording : Off")
+    end
+    if ImGui.Button("Spline Point (WorldSpace)") then
+        self.spline_count = self.spline_count + 1
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.X = self.spline_pos.x
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Y = self.spline_pos.y
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Z = 0
+        local distance = 0
+        for index, point in ipairs(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points) do
+            if index > 1 then
+                local x = point.position.X - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.X
+                local y = point.position.Y - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Y
+                local z = point.position.Z - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Z
+                distance = distance + math.sqrt(x * x + y * y + z * z)
+            end
+        end
+        local pos_list = {}
+        pos_list["$type"] = "EulerAngles"
+        pos_list.Pitch = 0
+        pos_list.Roll = 0
+        pos_list.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
+        local orientaion_change_list = {}
+        orientaion_change_list["$type"] = "worldSpeedSplineNodeOrientationChangeSection"
+        orientaion_change_list.pos = distance
+        orientaion_change_list.targetOrientation = pos_list
+        orientaion_change_list.type = "WorldSpace"
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[self.spline_count] = orientaion_change_list
+
+    end
+    if ImGui.Button("Spline Point (UseSplineOrientation)") then
+        self.spline_count = self.spline_count + 1
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.X = self.spline_pos.x
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Y = self.spline_pos.y
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Z = 0
+        local distance = 0
+        for index, point in ipairs(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points) do
+            if index > 1 then
+                local x = point.position.X - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.X
+                local y = point.position.Y - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Y
+                local z = point.position.Z - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Z
+                distance = distance + math.sqrt(x * x + y * y + z * z)
+            end
+        end
+        local pos_list = {}
+        pos_list["$type"] = "EulerAngles"
+        pos_list.Pitch = 0
+        pos_list.Roll = 0
+        pos_list.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
+        local orientaion_change_list = {}
+        orientaion_change_list["$type"] = "worldSpeedSplineNodeOrientationChangeSection"
+        orientaion_change_list.pos = distance
+        orientaion_change_list.targetOrientation = pos_list
+        orientaion_change_list.type = "UseSplineOrientation"
+        self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[self.spline_count] = orientaion_change_list
+    end
     ImGui.Separator()
     ImGui.Separator()
     ImGui.Separator()
