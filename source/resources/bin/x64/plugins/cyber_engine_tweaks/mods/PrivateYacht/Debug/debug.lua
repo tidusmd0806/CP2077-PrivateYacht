@@ -17,7 +17,7 @@ function Debug:New()
     obj.spline_generator = nil
     obj.spline_num = 0
     obj.spline_route = 1
-    obj.spline_speed = 10
+    obj.spline_speed = 5
     obj.spline_list_num = 0
     obj.spline_dist_offset = 0
     obj.route_decorded_json = nil
