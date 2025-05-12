@@ -314,6 +314,10 @@ function Debug:ImGuiExcuteFunction()
     --     io.open(ATS.setting_path, "w"):close()
     --     print("Delete Settings")
     -- end
+    if ImGui.Button("Stopsound") then
+        Game.GetPlayer():PlaySoundEvent("sq028_yacht_stop")
+        print("Stopsound")
+    end
 
 end
 
