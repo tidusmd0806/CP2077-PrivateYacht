@@ -1,0 +1,15 @@
+version: 1.0.0
+sfx:
+  private_yacht_start: 
+    file: 516064988.wav
+    settings:
+      volume: 3
+  private_yacht_move:
+    file: 932837914.wav
+    settings:
+      volume: 1.5
+      loop: true
+  private_yacht_end:
+    file: 746151130.wav
+    settings:
+      volume: 3

@@ -21,6 +21,7 @@ function Debug:New()
     obj.spline_list_num = 0
     obj.spline_dist_offset = 0
     obj.route_decorded_json = nil
+    obj.sound_sys = nil
 
     return setmetatable(obj, self)
 end
@@ -309,16 +310,39 @@ function Debug:ImGuiExcuteFunction()
         Reset()
         print("Reset")
     end
-    ImGui.SameLine()
+    -- ImGui.SameLine()
     -- if ImGui.Button("Delete Settings") then
     --     io.open(ATS.setting_path, "w"):close()
     --     print("Delete Settings")
     -- end
-    if ImGui.Button("Stopsound") then
-        Game.GetPlayer():PlaySoundEvent("sq028_yacht_stop")
-        print("Stopsound")
+    ImGui.Text("Sound Test")
+    if ImGui.Button("Start") then
+        local action_evt = ActionEvent.new()
+        action_evt.eventAction = CName.new("private_yacht_start")
+        Game.GetPlayer():QueueEvent(action_evt)
+        print("StartSound")
     end
-
+    ImGui.SameLine()
+    if ImGui.Button("Monving") then
+        local action_evt = ActionEvent.new()
+        action_evt.eventAction = CName.new("private_yacht_move")
+        Game.GetPlayer():QueueEvent(action_evt)
+        print("MoveSound")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("End") then
+        local action_evt = ActionEvent.new()
+        action_evt.eventAction = CName.new("private_yacht_end")
+        Game.GetPlayer():QueueEvent(action_evt)
+        print("EndSound")
+    end
+    ImGui.SameLine()
+    if ImGui.Button("Cancel") then
+        local action_evt = ActionEvent.new()
+        action_evt.eventAction = CName.new("private_yacht_cancel")
+        Game.GetPlayer():QueueEvent(action_evt)
+        print("CancelSound")
+    end
 end
 
 return Debug
