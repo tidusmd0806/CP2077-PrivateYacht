@@ -3,7 +3,7 @@
     "WolvenKitVersion": "8.16.1",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2200,
-    "ExportedDateTime": "2025-05-06T01:34:49.6304008Z",
+    "ExportedDateTime": "2025-05-20T14:02:46.7722679Z",
     "DataType": "CR2W",
     "ArchiveFileName": "E:\\Game\\cyberpunk_mod\\Y_クリエイト\\PrivateYacht\\source\\archive\\private_yacht\\sectors\\yacht_route.streamingsector"
   },
@@ -231,183 +231,183 @@
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -88.107574462891
+                  "Yaw": -88.1075745
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4.3448269417349,
+                "pos": 4.34482718,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -88.107574462891
+                  "Yaw": -88.1075745
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 17.395676961403,
+                "pos": 17.3956776,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -98.05835723877
+                  "Yaw": -98.0583572
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 53.127967105857,
+                "pos": 53.1279678,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -99.437652587891
+                  "Yaw": -99.4376526
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 59.304820273035,
+                "pos": 59.304821,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -108.50160980225
+                  "Yaw": -108.50161
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 121.50764770365,
+                "pos": 121.507645,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -108.50160980225
+                  "Yaw": -108.50161
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 172.42791445255,
+                "pos": 172.427917,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -124.46202087402
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 178.08044020614,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -155.98893737793
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 223.90343026163,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 179.3807220459
+                  "Yaw": -124.462021
                 },
                 "type": "UseSplineOrientation"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 665.90097251076,
+                "pos": 178.080444,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": 148.64178466797
+                  "Yaw": -155.988937
                 },
                 "type": "UseSplineOrientation"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 2025.2419072656,
+                "pos": 223.903427,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": 173.9116973877
+                  "Yaw": 179.380722
                 },
                 "type": "UseSplineOrientation"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3124.7532864972,
+                "pos": 665.901001,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -165.84164428711
+                  "Yaw": 148.641785
                 },
                 "type": "UseSplineOrientation"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3491.8699359813,
+                "pos": 2025.24194,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -159.97959899902
+                  "Yaw": 173.911697
                 },
                 "type": "UseSplineOrientation"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3623.748265234,
+                "pos": 3124.75317,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -142.24563598633
+                  "Yaw": -165.841644
                 },
                 "type": "UseSplineOrientation"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3688.4645126642,
+                "pos": 3491.86987,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -99.24072265625
+                  "Yaw": -159.979599
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3623.74829,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -142.245636
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3688.4646,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -99.2407227
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3805.201455248,
+                "pos": 3805.20142,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -43.773292541504
+                  "Yaw": -43.7732925
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 2053.957331485,
+                "pos": 2053.95728,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -48.373271942139
+                  "Yaw": -48.3732719
                 },
                 "type": "WorldSpace"
               }
@@ -417,26 +417,26 @@
             "speedChangeSections": [
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 10,
+                "end": 5,
                 "start": 0,
                 "targetSpeed_M_P_S": 2
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 200,
+                "end": 300,
                 "start": 20,
-                "targetSpeed_M_P_S": 10
+                "targetSpeed_M_P_S": 5
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 2052.957331485,
-                "start": 2003.957331485,
+                "end": 2052.95728,
+                "start": 2003.95728,
                 "targetSpeed_M_P_S": 2
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 2153.957331485,
-                "start": 2073.957331485,
+                "end": 2153.95728,
+                "start": 2073.95728,
                 "targetSpeed_M_P_S": 0.100000001
               }
             ],
@@ -489,8 +489,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 2.171144375,
-                      "Y": 0.074245480078126,
+                      "X": 2.17114449,
+                      "Y": 0.0742454827,
                       "Z": 0
                     },
                     "rotation": {
@@ -524,8 +524,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -5.6677228125,
-                      "Y": 3.5077781949219,
+                      "X": -5.6677227,
+                      "Y": 3.50777817,
                       "Z": 0
                     },
                     "rotation": {
@@ -559,8 +559,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -23.530271640625,
-                      "Y": 6.2000313077148,
+                      "X": -23.5302715,
+                      "Y": 6.20003128,
                       "Z": 0
                     },
                     "rotation": {
@@ -594,8 +594,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -26.3200665625,
-                      "Y": 7.5910682950195,
+                      "X": -26.3200665,
+                      "Y": 7.59106827,
                       "Z": 0
                     },
                     "rotation": {
@@ -629,8 +629,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -55.8200665625,
-                      "Y": 17.462741879004,
+                      "X": -55.8200684,
+                      "Y": 17.4627419,
                       "Z": 0
                     },
                     "rotation": {
@@ -664,8 +664,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -77.4919415625,
-                      "Y": 31.432216671484,
+                      "X": -77.4919434,
+                      "Y": 31.4322166,
                       "Z": 0
                     },
                     "rotation": {
@@ -699,8 +699,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -68.67016421875,
-                      "Y": 14.500362423438,
+                      "X": -68.670166,
+                      "Y": 14.5003624,
                       "Z": 0
                     },
                     "rotation": {
@@ -734,8 +734,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -69.35961734375,
-                      "Y": -27.052661868555,
+                      "X": -69.3596191,
+                      "Y": -27.0526619,
                       "Z": 0
                     },
                     "rotation": {
@@ -769,8 +769,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -187.024168125,
-                      "Y": -221.05061719082,
+                      "X": -187.02417,
+                      "Y": -221.050613,
                       "Z": 0
                     },
                     "rotation": {
@@ -804,8 +804,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -279.81982242187,
-                      "Y": -910.85986706875,
+                      "X": -279.819824,
+                      "Y": -910.859863,
                       "Z": 0
                     },
                     "rotation": {
@@ -839,8 +839,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -42.28442203125,
-                      "Y": -1456.5875282016,
+                      "X": -42.2844238,
+                      "Y": -1456.58752,
                       "Z": 0
                     },
                     "rotation": {
@@ -874,8 +874,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 9.52417171875,
-                      "Y": -1636.7889442172,
+                      "X": 9.52417183,
+                      "Y": -1636.78894,
                       "Z": 0
                     },
                     "rotation": {
@@ -909,8 +909,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 50.94995296875,
-                      "Y": -1695.8164100375,
+                      "X": 50.9499512,
+                      "Y": -1695.81641,
                       "Z": 0
                     },
                     "rotation": {
@@ -944,8 +944,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 72.891603359375,
-                      "Y": -1724.0223426547,
+                      "X": 72.8916016,
+                      "Y": -1724.02234,
                       "Z": 0
                     },
                     "rotation": {
@@ -979,8 +979,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 120.52148617188,
-                      "Y": -1771.1788367953,
+                      "X": 120.521484,
+                      "Y": -1771.17883,
                       "Z": 0
                     },
                     "rotation": {
@@ -1014,8 +1014,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 135.50244320313,
-                      "Y": -1784.3205604281,
+                      "X": 135.502441,
+                      "Y": -1784.32056,
                       "Z": 0
                     },
                     "rotation": {
@@ -1049,8 +1049,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 134.70093,
-                      "Y": -1788.3437516,
+                      "X": 134.700928,
+                      "Y": -1788.34375,
                       "Z": 0
                     },
                     "rotation": {
@@ -1129,700 +1129,183 @@
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": 145.059998
+                  "Yaw": -45.045745849609
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
+                "pos": 12.945219638384,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": 145.059998
+                  "Yaw": -45.836849212646
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 109.66362313925,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -38.201538085938
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 687.28996631909,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 4.1630220413208
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 887.08301952694,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 38.399528503418
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1352.7619286865,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 49.680549621582
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1481.8491202925,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 27.020526885986
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1971.8867480167,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 13.276995658875
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 2666.4150089323,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 1.4545366764069
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3275.0504878544,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -1.0085396766663
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3544.3250860033,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -9.2848062515259
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3654.8708793814,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -29.925443649292
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3703.9078263702,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -53.423320770264
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3754.3917995668,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -81.009651184082
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3803.9173677426,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -87.117919921875
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3813.2606240334,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -87.413513183594
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
+                "pos": 2038.3090654637,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
-                },
-                "type": "WorldSpace"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 0,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 145.059998
+                  "Yaw": -86.61351776123
                 },
                 "type": "WorldSpace"
               }
@@ -1832,7 +1315,7 @@
             "speedChangeSections": [
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 10,
+                "end": 5,
                 "start": 0,
                 "targetSpeed_M_P_S": 2
               },
@@ -1840,18 +1323,18 @@
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
                 "end": 200,
                 "start": 20,
-                "targetSpeed_M_P_S": 10
+                "targetSpeed_M_P_S": 5
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 2229,
-                "start": 2200,
+                "end": 2037.3090654637,
+                "start": 1988.3090654637,
                 "targetSpeed_M_P_S": 2
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 2300,
-                "start": 2230,
+                "end": 2138.3090654637,
+                "start": 2058.3090654637,
                 "targetSpeed_M_P_S": 0.100000001
               }
             ],
@@ -1864,8 +1347,8 @@
                 "points": [
                   {
                     "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
+                    "automaticTangents": 0,
+                    "continuousTangents": 0,
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
@@ -1899,13 +1382,13 @@
                   },
                   {
                     "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
+                    "automaticTangents": 0,
+                    "continuousTangents": 0,
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": 4.5563960156251,
+                      "Y": 4.5971657812499,
                       "Z": 0
                     },
                     "rotation": {
@@ -1939,8 +1422,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": 34.95312453125,
+                      "Y": 42.227903085937,
                       "Z": 0
                     },
                     "rotation": {
@@ -1974,8 +1457,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": 23.209716328125,
+                      "Y": 336.81933375,
                       "Z": 0
                     },
                     "rotation": {
@@ -2009,8 +1492,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -38.319580546875,
+                      "Y": 426.73852320312,
                       "Z": 0
                     },
                     "rotation": {
@@ -2044,8 +1527,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -230.45971726562,
+                      "Y": 595.415036875,
                       "Z": 0
                     },
                     "rotation": {
@@ -2079,8 +1562,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -259.9370121875,
+                      "Y": 653.0117165625,
                       "Z": 0
                     },
                     "rotation": {
@@ -2114,8 +1597,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -310.561035625,
+                      "Y": 894.11901636719,
                       "Z": 0
                     },
                     "rotation": {
@@ -2149,8 +1632,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -331.30078171875,
+                      "Y": 1245.6243874609,
                       "Z": 0
                     },
                     "rotation": {
@@ -2184,8 +1667,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -329.06543015625,
+                      "Y": 1554.3656136572,
                       "Z": 0
                     },
                     "rotation": {
@@ -2219,8 +1702,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -302.20898484375,
+                      "Y": 1691.5338189185,
                       "Z": 0
                     },
                     "rotation": {
@@ -2254,8 +1737,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -271.55078171875,
+                      "Y": 1745.6617943823,
                       "Z": 0
                     },
                     "rotation": {
@@ -2289,8 +1772,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -246.4506840625,
+                      "Y": 1766.1690575659,
                       "Z": 0
                     },
                     "rotation": {
@@ -2324,8 +1807,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -216.72705125,
+                      "Y": 1785.3066231787,
                       "Z": 0
                     },
                     "rotation": {
@@ -2359,8 +1842,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -165.79516648437,
+                      "Y": 1789.1936013281,
                       "Z": 0
                     },
                     "rotation": {
@@ -2394,8 +1877,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -153.72241257812,
+                      "Y": 1787.3984887183,
                       "Z": 0
                     },
                     "rotation": {
@@ -2429,8 +1912,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -137.7846684375,
+                      "Y": 1788.1651131689,
                       "Z": 0
                     },
                     "rotation": {
@@ -2459,1623 +1942,13 @@
                   },
                   {
                     "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
+                    "automaticTangents": 0,
+                    "continuousTangents": 0,
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 0,
-                      "Y": 0,
+                      "X": -134.70093,
+                      "Y": 1788.3437516,
                       "Z": 0
                     },
                     "rotation": {
@@ -4857,7 +2730,7 @@
             "speedChangeSections": [
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 10,
+                "end": 5,
                 "start": 0,
                 "targetSpeed_M_P_S": 2
               },
@@ -4865,7 +2738,7 @@
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
                 "end": 200,
                 "start": 20,
-                "targetSpeed_M_P_S": 10
+                "targetSpeed_M_P_S": 5
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
@@ -7882,7 +5755,7 @@
             "speedChangeSections": [
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 10,
+                "end": 5,
                 "start": 0,
                 "targetSpeed_M_P_S": 2
               },
@@ -7890,7 +5763,7 @@
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
                 "end": 200,
                 "start": 20,
-                "targetSpeed_M_P_S": 10
+                "targetSpeed_M_P_S": 5
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
