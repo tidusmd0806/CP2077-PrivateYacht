@@ -3,9 +3,9 @@
     "WolvenKitVersion": "8.16.1",
     "WKitJsonVersion": "0.0.9",
     "GameVersion": 2200,
-    "ExportedDateTime": "2025-05-23T12:54:57.7445989Z",
+    "ExportedDateTime": "2025-05-25T16:14:51.0773723Z",
     "DataType": "CR2W",
-    "ArchiveFileName": "E:\\Game\\cyberpunk_mod\\Y_クリエイト\\PrivateYacht\\source\\archive\\private_yacht\\sectors\\yacht_route.streamingsector"
+    "ArchiveFileName": "E:\\Game\\cyberpunk_mod\\Y_\u30AF\u30EA\u30A8\u30A4\u30C8\\PrivateYacht\\source\\archive\\private_yacht\\sectors\\yacht_route.streamingsector"
   },
   "Data": {
     "Version": 195,
@@ -93,7 +93,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -165,7 +165,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -237,7 +237,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -309,7 +309,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -381,7 +381,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -453,7 +453,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -525,7 +525,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -597,7 +597,7 @@
               },
               "Flags": "Default"
             },
-            "MaxStreamingDistance": 3.40282347e+38,
+            "MaxStreamingDistance": 3.40282347E+38,
             "UkFloat1": 3272.59229,
             "Uk10": 288,
             "Uk11": 512,
@@ -874,6 +874,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -1772,6 +1773,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -2769,6 +2771,7 @@
                 "type": "UseSplineOrientation"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -4125,6 +4128,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -5564,6 +5568,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -6990,6 +6995,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -8162,396 +8168,353 @@
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -87.360916137695
+                  "Yaw": -87.4461899
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3.0118972571598,
+                "pos": 1.60377753,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -87.360916137695
+                  "Yaw": -87.4461899
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 11.900623967381,
+                "pos": 15.5778656,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -89.67601776123
+                  "Yaw": -87.1505966
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 85.979134070109,
+                "pos": 27.831501,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -88.789268493652
+                  "Yaw": -87.1505966
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 177.73815561777,
+                "pos": 47.1971207,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -71.547782897949
+                  "Yaw": -86.9538574
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 260.32604973651,
+                "pos": 70.0234451,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -51.154067993164
+                  "Yaw": -63.60429
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 268.18398972444,
+                "pos": 96.0300827,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -29.528699874878
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 298.72289343519,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -2.1395637989044
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 344.84128950266,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 24.461542129517
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 678.46460300014,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 44.806713104248
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 994.52269110682,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 34.855995178223
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 1248.0787508125,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 22.442384719849
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 1389.4860583109,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 0.61970406770706
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 1482.6372890947,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -28.345893859863
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 1633.8931860016,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -51.055377960205
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 1846.4604381916,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -75.932151794434
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 2234.7291770373,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -79.281845092773
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 2541.5441081861,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -88.050224304199
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3148.8253259856,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -91.744644165039
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3690.7613875231,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -89.774208068848
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3983.5369604592,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -93.517707824707
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4326.6891088338,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -89.527557373047
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4465.9555597908,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -64.404457092285
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4575.4075760176,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -32.434062957764
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4658.6825525951,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 7.4674520492554
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4725.5588934692,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 17.516803741455
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 4852.2725592197,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -6.8674206733704
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5112.152939564,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -12.729532241821
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5247.0699210542,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -18.640933990479
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5481.7047381567,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 0.86645168066025
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5571.5285710228,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -18.641052246094
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5703.816776671,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -32.631370544434
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5765.4253665437,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": 7.9597868919373
-                },
-                "type": "UseSplineOrientation"
-              },
-              {
-                "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5787.8123454385,
-                "targetOrientation": {
-                  "$type": "EulerAngles",
-                  "Pitch": 0,
-                  "Roll": 0,
-                  "Yaw": -38.394908905029
+                  "Yaw": -16.4123383
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 5811.93122909,
+                "pos": 113.741516,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -60.463687896729
+                  "Yaw": 8.41533375
                 },
                 "type": "WorldSpace"
               },
               {
                 "$type": "worldSpeedSplineNodeOrientationChangeSection",
-                "pos": 3632.2377519115,
+                "pos": 172.996582,
                 "targetOrientation": {
                   "$type": "EulerAngles",
                   "Pitch": 0,
                   "Roll": 0,
-                  "Yaw": -46.54369354248
+                  "Yaw": 30.6813755
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 442.952789,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 44.5237465
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 579.450623,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 26.0509586
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 706.68396,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 18.2677422
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 805.709045,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -5.62400436
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 926.619141,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -32.9639893
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1119.45459,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -50.4028358
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1388.49194,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -71.5358353
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1698.02246,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -94.540535
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 1995.19604,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -103.99868
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 2482.05249,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -95.6734238
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 2726.55029,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -76.8063736
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 2806.53003,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -55.8212395
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 2893.72754,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -15.9691114
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3046.68481,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -2.96419954
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3229.89282,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -14.0972719
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3344.93701,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 1.51848471
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3392.28711,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -9.91010952
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3484.71704,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -21.3388119
+                },
+                "type": "UseSplineOrientation"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3535.77954,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -18.826582
+                },
+                "type": "WorldSpace"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3562.78027,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -50.5015106
+                },
+                "type": "WorldSpace"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3594.12744,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -48.9748268
+                },
+                "type": "WorldSpace"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3605.45361,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -44.9450684
+                },
+                "type": "WorldSpace"
+              },
+              {
+                "$type": "worldSpeedSplineNodeOrientationChangeSection",
+                "pos": 3660.17407,
+                "targetOrientation": {
+                  "$type": "EulerAngles",
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": -44.3944931
                 },
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -8563,20 +8526,20 @@
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 200,
-                "start": 20,
-                "targetSpeed_M_P_S": 47
+                "end": 400,
+                "start": 110,
+                "targetSpeed_M_P_S": 7
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 3631.2377519115,
-                "start": 3582.2377519115,
+                "end": 3609.17407,
+                "start": 3510.17407,
                 "targetSpeed_M_P_S": 2
               },
               {
                 "$type": "worldSpeedSplineNodeSpeedChangeSection",
-                "end": 3732.2377519115,
-                "start": 3652.2377519115,
+                "end": 3710.17407,
+                "start": 3630.17407,
                 "targetSpeed_M_P_S": 0.100000001
               }
             ],
@@ -8629,8 +8592,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1.502931484375,
-                      "Y": 0.095279720800782,
+                      "X": 1.59594905,
+                      "Y": 0.158268005,
                       "Z": 0
                     },
                     "rotation": {
@@ -8664,8 +8627,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -0.75561343749996,
-                      "Y": 4.9673881802734,
+                      "X": -12.0991192,
+                      "Y": 2.93680191,
                       "Z": 0
                     },
                     "rotation": {
@@ -8699,8 +8662,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -39.611814609375,
-                      "Y": 6.8569755826172,
+                      "X": -24.3376446,
+                      "Y": 2.32845688,
                       "Z": 0
                     },
                     "rotation": {
@@ -8734,8 +8697,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -85.36742984375,
-                      "Y": -1.8297462191406,
+                      "X": -43.6789551,
+                      "Y": 1.35839462,
                       "Z": 0
                     },
                     "rotation": {
@@ -8769,8 +8732,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -122.89990054687,
-                      "Y": -22.776958438379,
+                      "X": -64.1257324,
+                      "Y": -8.78904343,
                       "Z": 0
                     },
                     "rotation": {
@@ -8804,8 +8767,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -112.58740054687,
-                      "Y": -5.4897269930664,
+                      "X": -71.7106934,
+                      "Y": -33.6650047,
                       "Z": 0
                     },
                     "rotation": {
@@ -8839,8 +8802,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -110.94555484375,
-                      "Y": 24.175876644629,
+                      "X": -69.1193848,
+                      "Y": -51.1858482,
                       "Z": 0
                     },
                     "rotation": {
@@ -8874,8 +8837,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -122.01391421875,
-                      "Y": 49.776424435156,
+                      "X": -99.3691406,
+                      "Y": -0.233760804,
                       "Z": 0
                     },
                     "rotation": {
@@ -8909,8 +8872,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -240.70727359375,
-                      "Y": 171.37028124668,
+                      "X": -285.143311,
+                      "Y": 195.634354,
                       "Z": 0
                     },
                     "rotation": {
@@ -8944,8 +8907,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -333.13671695312,
-                      "Y": 303.25182726719,
+                      "X": -347.428467,
+                      "Y": 317.093048,
                       "Z": 0
                     },
                     "rotation": {
@@ -8979,8 +8942,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -386.4177228125,
-                      "Y": 423.03078844883,
+                      "X": -387.523438,
+                      "Y": 437.843689,
                       "Z": 0
                     },
                     "rotation": {
@@ -9014,8 +8977,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -386.62841617187,
-                      "Y": 502.98223498203,
+                      "X": -378.451416,
+                      "Y": 536.452332,
                       "Z": 0
                     },
                     "rotation": {
@@ -9049,8 +9012,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -359.09008609375,
-                      "Y": 559.42443468906,
+                      "X": -311.080078,
+                      "Y": 636.853333,
                       "Z": 0
                     },
                     "rotation": {
@@ -9084,8 +9047,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -262.08788882812,
-                      "Y": 638.92736437656,
+                      "X": -155.227539,
+                      "Y": 750.41156,
                       "Z": 0
                     },
                     "rotation": {
@@ -9119,8 +9082,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": -56.170896640625,
-                      "Y": 688.96465685703,
+                      "X": 100.003174,
+                      "Y": 835.490356,
                       "Z": 0
                     },
                     "rotation": {
@@ -9154,8 +9117,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 236.8830584375,
-                      "Y": 744.47600939609,
+                      "X": 409.500732,
+                      "Y": 830.976074,
                       "Z": 0
                     },
                     "rotation": {
@@ -9189,8 +9152,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 446.17456234375,
-                      "Y": 756.67321398594,
+                      "X": 699.321655,
+                      "Y": 765.280029,
                       "Z": 0
                     },
                     "rotation": {
@@ -9224,8 +9187,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 823.6252459375,
-                      "Y": 741.04632189609,
+                      "X": 1183.18384,
+                      "Y": 711.366516,
                       "Z": 0
                     },
                     "rotation": {
@@ -9259,8 +9222,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1126.925050625,
-                      "Y": 737.02648547031,
+                      "X": 1424.8927,
+                      "Y": 748.190186,
                       "Z": 0
                     },
                     "rotation": {
@@ -9294,8 +9257,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1291.5319842188,
-                      "Y": 705.68981554844,
+                      "X": 1495.00195,
+                      "Y": 786.679749,
                       "Z": 0
                     },
                     "rotation": {
@@ -9329,8 +9292,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1475.3127459375,
-                      "Y": 694.98040392734,
+                      "X": 1522.45105,
+                      "Y": 869.444092,
                       "Z": 0
                     },
                     "rotation": {
@@ -9364,8 +9327,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1538.2977923242,
-                      "Y": 724.67333605625,
+                      "X": 1531.26709,
+                      "Y": 1022.14709,
                       "Z": 0
                     },
                     "rotation": {
@@ -9399,8 +9362,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1572.7733782617,
-                      "Y": 771.45214465,
+                      "X": 1575.87354,
+                      "Y": 1199.84192,
                       "Z": 0
                     },
                     "rotation": {
@@ -9434,8 +9397,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1565.748109707,
-                      "Y": 832.70623400547,
+                      "X": 1578.16235,
+                      "Y": 1314.86353,
                       "Z": 0
                     },
                     "rotation": {
@@ -9469,8 +9432,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1533.5191668359,
-                      "Y": 891.07165148594,
+                      "X": 1585.39062,
+                      "Y": 1361.65857,
                       "Z": 0
                     },
                     "rotation": {
@@ -9504,8 +9467,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1524.7017229883,
-                      "Y": 979.00347521641,
+                      "X": 1624.89075,
+                      "Y": 1445.22314,
                       "Z": 0
                     },
                     "rotation": {
@@ -9539,8 +9502,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1555.3524187891,
-                      "Y": 1126.9688682828,
+                      "X": 1630.94604,
+                      "Y": 1495.92529,
                       "Z": 0
                     },
                     "rotation": {
@@ -9574,8 +9537,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1581.4627703516,
-                      "Y": 1195.3826866422,
+                      "X": 1613.83679,
+                      "Y": 1516.81335,
                       "Z": 0
                     },
                     "rotation": {
@@ -9609,8 +9572,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1581.0829485742,
-                      "Y": 1339.9334678922,
+                      "X": 1593.8988,
+                      "Y": 1541.00269,
                       "Z": 0
                     },
                     "rotation": {
@@ -9644,8 +9607,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1596.6076678125,
-                      "Y": 1385.6478233609,
+                      "X": 1582.72021,
+                      "Y": 1539.17944,
                       "Z": 0
                     },
                     "rotation": {
@@ -9679,148 +9642,8 @@
                     "id": 0,
                     "position": {
                       "$type": "Vector3",
-                      "X": 1624.5677508203,
-                      "Y": 1449.1262169156,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 1619.1066302148,
-                      "Y": 1488.1855430875,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 1611.8186663477,
-                      "Y": 1503.7329063688,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 1591.3190325586,
-                      "Y": 1521.2731895719,
-                      "Z": 0
-                    },
-                    "rotation": {
-                      "$type": "Quaternion",
-                      "i": 0,
-                      "j": 0,
-                      "k": 0,
-                      "r": 1
-                    },
-                    "tangents": {
-                      "Elements": [
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        },
-                        {
-                          "$type": "Vector3",
-                          "X": 0,
-                          "Y": 0,
-                          "Z": 0
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "$type": "SplinePoint",
-                    "automaticTangents": 1,
-                    "continuousTangents": 1,
-                    "id": 0,
-                    "position": {
-                      "$type": "Vector3",
-                      "X": 1581.6519183008,
-                      "Y": 1536.8715782438,
+                      "X": 1579.97339,
+                      "Y": 1537.75049,
                       "Z": 0
                     },
                     "rotation": {
@@ -9855,7 +9678,7 @@
                     "position": {
                       "$type": "Vector3",
                       "X": 1578.35425,
-                      "Y": 1537.8776784,
+                      "Y": 1537.87769,
                       "Z": 0
                     },
                     "rotation": {
@@ -10632,6 +10455,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -13657,6 +13481,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -16682,6 +16507,7 @@
                 "type": "WorldSpace"
               }
             ],
+            "proxyScale": null,
             "roadAdjustmentFactorChangeSections": [],
             "sourcePrefabHash": "0",
             "speedChangeSections": [
@@ -18968,6 +18794,7 @@
         }
       ],
       "persistentNodeIndex": 0,
+      "persistentNodes": null,
       "variantIndices": [],
       "variantNodes": [],
       "version": 62

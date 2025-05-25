@@ -241,7 +241,9 @@ function Debug:ImGuiExcuteFunction()
         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Z = 0
         local distance = 0
         for index, point in ipairs(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points) do
-            if index > 1 then
+            if index > self.spline_count then
+                break
+            elseif index > 1 then
                 local x = point.position.X - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.X
                 local y = point.position.Y - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Y
                 local z = point.position.Z - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Z
@@ -268,7 +270,9 @@ function Debug:ImGuiExcuteFunction()
         self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[self.spline_count].position.Z = 0
         local distance = 0
         for index, point in ipairs(self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points) do
-            if index > 1 then
+            if index > self.spline_count then
+                break
+            elseif index > 1 then
                 local x = point.position.X - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.X
                 local y = point.position.Y - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Y
                 local z = point.position.Z - self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.splineData.Data.points[index - 1].position.Z
