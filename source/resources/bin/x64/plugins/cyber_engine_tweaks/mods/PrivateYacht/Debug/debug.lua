@@ -190,7 +190,7 @@ function Debug:ImGuiExcuteFunction()
             self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[3]["start"] = distance - 50
             self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[4]["end"] = distance + 100
             self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.speedChangeSections[4]["start"] = distance + 20
-            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[orientation_num].pos = distance
+            self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[orientation_num].pos = distance + 50
             self.route_decorded_json.Data.RootChunk.nodes[self.spline_list_num].Data.orientationChangeSections[orientation_num].targetOrientation.Yaw = Game.GetPlayer():GetWorldOrientation():ToEulerAngles().yaw
 
             local encoded_json = json.encode(self.route_decorded_json)
