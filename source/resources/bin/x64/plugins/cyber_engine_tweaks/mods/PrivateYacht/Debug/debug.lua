@@ -295,7 +295,7 @@ function Debug:ImGuiExcuteFunction()
     ImGui.Separator()
     ImGui.Separator()
     if ImGui.Button("ToggleActivation") then
-        ToggleActivation()
+        PrivateYacht:ToggleActivation()
         if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable") == 1 then
             print("Enable")
         else
@@ -303,7 +303,7 @@ function Debug:ImGuiExcuteFunction()
         end
     end
     if ImGui.Button("ToggleAuto") then
-        ToggleAuto()
+        PrivateYacht:ToggleAuto()
         if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto") == 1 then
             print("Auto")
         else
@@ -311,7 +311,7 @@ function Debug:ImGuiExcuteFunction()
         end
     end
     if ImGui.Button("Reset") then
-        Reset()
+        PrivateYacht:Reset()
         print("Reset")
     end
     -- ImGui.SameLine()
