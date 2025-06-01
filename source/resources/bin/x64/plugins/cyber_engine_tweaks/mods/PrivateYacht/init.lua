@@ -47,30 +47,12 @@ registerForEvent('onInit', function()
             Game.GetQuestsSystem():SetFactStr("mod_private_yacht_debug", 0)
         end
 
-        PrivateYacht.is_enabled = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable")
-        PrivateYacht.is_automode = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto")
+        PrivateYacht.is_enabled = (Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable") == 1)
+        PrivateYacht.is_automode = (Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto") == 1)
 
-        -- local saved_version = Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version")
-        -- local current_version = VersionToInt(PrivateYacht.version)
-        -- if saved_version ~= current_version then
-        --     Game.GetQuestsSystem():SetFactStr("ats_av_traffic_version", current_version)
-        --     PrivateYacht.is_update_version = true
-        -- end
-
-        -- local saved_number_of_av = Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av")
-        -- local current_number_of_av = PrivateYacht.setting_table.number_of_av
-        -- if saved_number_of_av ~= current_number_of_av then
-        --     Game.GetQuestsSystem():SetFactStr("ats_av_traffic_number_of_av", current_number_of_av)
-        --     PrivateYacht.is_update_version = true
-        -- end
-
-        -- if PrivateYacht.is_update_version or not IsTrafficLoop() then
-        --     PrivateYacht.is_update_version = false
-        --     StartLoop()
-        -- end
-        -- Cron.After(2, function()
-        --     PrivateYacht:Reset()
-        -- end)
+        Cron.After(2, function()
+            UpdateNativeSettingsPage()
+        end)
     end)
 
     if PrivateYacht.is_valid_native_settings then
@@ -97,6 +79,7 @@ end
 
 function PrivateYacht:ToggleActivation()
     if Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable") == 1 then
+        SetDisappearYachtFlag()
         Game.GetQuestsSystem():SetFactStr("mod_private_yacht_enable", 0)
     else
         Game.GetQuestsSystem():SetFactStr("mod_private_yacht_enable", 1)
@@ -111,6 +94,10 @@ function PrivateYacht:ToggleAuto()
         Game.GetQuestsSystem():SetFactStr("mod_private_yacht_auto", 1)
     end
     PrivateYacht:Reset()
+end
+
+function SetDisappearYachtFlag()
+    Game.GetQuestsSystem():SetFactStr("mod_private_yacht_disappear_yacht", 1)
 end
 
 function CheckNativeSettings()
@@ -168,7 +155,7 @@ function CreateNativeSettingsPage()
 	local option_table
 
 	-- general
-    PrivateYacht.is_enabled = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable")
+    PrivateYacht.is_enabled = (Game.GetQuestsSystem():GetFactStr("mod_private_yacht_enable") == 1)
     option_table = PrivateYacht.native_settings_mod.addSwitch("/PrivateYacht/general", GetLocalizedText(LocKeyToString("private-yacht-general-activation")), GetLocalizedText(LocKeyToString("private-yacht-general-activation-description")), PrivateYacht.is_enabled, PrivateYacht.is_enabled, function(state)
         if state ~= PrivateYacht.is_enabled then
             PrivateYacht:ToggleActivation()
@@ -179,7 +166,7 @@ function CreateNativeSettingsPage()
 	end)
 	table.insert(PrivateYacht.option_table_list, option_table)
 
-    PrivateYacht.is_automode = Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto")
+    PrivateYacht.is_automode = (Game.GetQuestsSystem():GetFactStr("mod_private_yacht_auto") == 1)
     option_table = PrivateYacht.native_settings_mod.addSwitch("/PrivateYacht/general", GetLocalizedText(LocKeyToString("private-yacht-general-automode")), GetLocalizedText(LocKeyToString("private-yacht-general-automode-description")), PrivateYacht.is_automode, PrivateYacht.is_automode, function(state)
         if state ~= PrivateYacht.is_automode then
             PrivateYacht:ToggleAuto()
