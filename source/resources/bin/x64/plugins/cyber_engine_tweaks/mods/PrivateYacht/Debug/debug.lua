@@ -30,8 +30,6 @@ function Debug:ImGuiMain()
 
     ImGui.Begin("PRIVATE YACHT DEBUG WINDOW")
     ImGui.Text("Version : " .. PrivateYacht.version)
-    -- ImGui.Text("Saved Version : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_version"))
-    -- ImGui.Text("Saved Number of AV : " .. Game.GetQuestsSystem():GetFactStr("ats_av_traffic_number_of_av"))
 
     self:SetObserver()
     self:ImGuiInputSplineNum()
@@ -40,7 +38,6 @@ function Debug:ImGuiMain()
     self:ImGuiSplineRelativePosition()
     self:ImGuiPlayerPosition()
     self:ImGuiFactValue()
-    -- self:ImGuiLockedNumber()
     self:ImGuiExcuteFunction()
 
     ImGui.End()
@@ -49,23 +46,6 @@ end
 function Debug:SetObserver()
     if not self.is_set_observer then
         -- reserved
-        -- Override("InteractionUIBase", "OnDialogsData", function(_, value, wrapped_method)
-        --     local data = FromVariant(value)
-        --     local Hubs = data.choiceHubs
-        --     for i = 1, #Hubs[1].choices do
-        --         print(Hubs[1].choices[i].localizedName)
-        --         Hubs[1].choices[i].localizedName = "test"
-        --     end
-        --     data.choiceHubs = Hubs
-        --     wrapped_method(ToVariant(data))
-        -- end)
-        -- Observe("DefaultTransition", "GetDistanceToGround;StateGameScriptInterface",
-        -- ---@param scriptInterface StateGameScriptInterface
-        -- function(scriptInterface)
-        --     -- method has just been called
-        --     print("GetDistanceToGround : ")
-        -- end)
-
     end
     self.is_set_observer = true
 
@@ -135,17 +115,6 @@ function Debug:ImGuiPlayerPosition()
     end
     ImGui.Text("player position : " .. player_pos.x .. " ," .. player_pos.y .. ", " .. player_pos.z)
     ImGui.Text("player angle : " .. player_angle.roll .. " ," .. player_angle.pitch .. ", " .. player_angle.yaw)
-end
-
-function Debug:ImGuiLockedNumber()
-    self.is_im_gui_locked_number = ImGui.Checkbox("[ImGui] Open Locked Number", self.is_im_gui_locked_number)
-    if self.is_im_gui_locked_number then
-        ImGui.Text("Locked numbers : ")
-        local fact_db = Game.GetQuestsSystem()
-        for i = 1, ATS.max_number_of_av do
-            ImGui.Text("[" .. i .. "]" .. fact_db:GetFactStr("ats_av_traffic_lock_" .. i))
-        end
-    end
 end
 
 function Debug:ImGuiExcuteFunction()

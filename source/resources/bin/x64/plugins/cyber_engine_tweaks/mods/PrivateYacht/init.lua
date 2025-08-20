@@ -11,10 +11,9 @@ local Debug = require('Debug/debug.lua')
 PrivateYacht = {
     -- static --
     description = "Private Yacht",
-    version = "1.0.0",
+    version = "1.0.1",
     is_ready = false,
     is_debug_mode = false,
-    -- is_update_version = false,
     native_settings_required_version = 1.96,
     delay_updating_native_settings = 0.1,
     -- dynamic --
