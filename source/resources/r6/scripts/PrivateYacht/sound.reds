@@ -1,4 +1,9 @@
+// Title: Private Yacht Sound System
+// Author: tidusmd
+// Version: 1.0.3
+// CopyRight (C) 2025, tidusmd. All rights reserved.
 module PrivateYacht
+@if(ModuleExists("Audioware"))
 import Audioware.*
 
 @addField(PlayerPuppet)
@@ -6,6 +11,7 @@ let m_yacht_emitter_id: EntityID;
 @addField(PlayerPuppet)
 let m_yacht_tag_name: CName;
 
+@if(ModuleExists("Audioware"))
 public class SoundSystem extends ScriptableSystem {
     private func OnAttach() {
         GameInstance.GetCallbackSystem().RegisterCallback(n"Entity/AfterAttach", this, n"OnYachtSpawn")
@@ -35,6 +41,7 @@ public class SoundSystem extends ScriptableSystem {
     }
 }
 
+@if(ModuleExists("Audioware"))
 @addMethod(PlayerPuppet)
 private cb func OnYachtSoundEvent(event: ref<ActionEvent>) {
     let game = this.GetGame();
@@ -53,6 +60,7 @@ private cb func OnYachtSoundEvent(event: ref<ActionEvent>) {
     }
 }
 
+@if(ModuleExists("Audioware"))
 public class CustomCallback extends DelayCallback {
     private let func_num: Int32;
     private let game: GameInstance;
