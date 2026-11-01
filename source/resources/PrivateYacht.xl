@@ -8,16 +8,16 @@ streaming:
       expectedNodes: 180
       nodeDeletions:
         - index: 178
-          type: worldStaticMeshNode
+          type: worldCookedStaticMeshNode
         - index: 179
-          type: worldCollisionNode
+          type: worldCookedCollisionNode
     - path: base\worlds\03_night_city\_compiled\default\exterior_-19_8_0_1.streamingsector
       expectedNodes: 189
       nodeDeletions:
-        - index: 187
-          type: worldStaticMeshNode
         - index: 188
-          type: worldCollisionNode
+          type: worldCookedStaticMeshNode
+        - index: 187
+          type: worldCookedCollisionNode
 quest:
   phases:
     - path: private_yacht\quests\private_yacht_main.questphase
